@@ -4,7 +4,7 @@ import API from "../api/axios";
 function Cart() {
   const [cart, setCart] = useState(null);
   const [loading, setLoading] = useState(true);
-
+  
   useEffect(() => {
     fetchCart();
   }, []);
